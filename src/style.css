@@ -30,9 +30,11 @@ header {
 header .metrics {
 	color: rgba(5, 55, 66, 1);
 	display: inline;
+	margin: 0;
+	padding: 0px 12px 0px 0px;
 	text-align: right;
 	align-self: center;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 200;
 }
 
