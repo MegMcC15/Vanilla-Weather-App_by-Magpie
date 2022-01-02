@@ -1,0 +1,301 @@
+body {
+	background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+	display: block;
+	max-width: 750px;
+	margin: 0px auto;
+	padding: 0px;
+	font-family: "Roboto", sans-serif;
+}
+
+body .container {
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+header {
+	margin: 45px 0px 0px;
+	padding: 0px;
+	max-width: 100%;
+}
+
+header .metrics {
+	color: rgba(5, 55, 66, 1);
+	display: inline;
+	text-align: right;
+	font-size: 21px;
+	font-weight: 200;
+}
+
+#change-C {
+	display: inline;
+	color: rgba(5, 55, 66, 1);
+	text-decoration: none;
+}
+
+#change-C:hover {
+	color: rgba(57, 162, 219, 1);
+	font-weight: 300;
+}
+
+#change-F {
+	display: inline;
+	color: rgba(5, 55, 66, 1);
+	text-decoration: none;
+}
+
+#change-F:hover {
+	color: rgba(57, 162, 219, 1);
+	font-weight: 300;
+}
+
+header .change-city {
+	align-self: center;
+}
+
+header .menu {
+	text-align: right;
+	align-self: center;
+	max-width: 120px;
+}
+
+#change-city-input {
+	background: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-width: 2px;
+	border-color: rgba(5, 55, 66, 1);
+	border-radius: 4px 4px 0px 0px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: rgba(57, 162, 219, 1);
+}
+
+.btn-primary {
+	background: rgba(57, 162, 219, 1);
+	display: inline;
+	padding: 3px 9px;
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+}
+
+.btn-primary:hover {
+	background: #334257;
+}
+
+.btn-primary:focus {
+	background: rgba(57, 162, 219, 1);
+	box-shadow: none;
+	border: none;
+}
+
+.btn-primary:active {
+	box-shadow: none;
+	border: none;
+}
+
+.btn-secondary {
+	background: rgba(57, 162, 219, 1);
+	display: inline;
+	padding: 3px 9px;
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	transition: all 100ms ease-in-out;
+}
+
+.btn-secondary:hover {
+	background: #334257;
+}
+
+.btn-secondary:focus {
+	background: rgba(57, 162, 219, 1);
+	box-shadow: none;
+	border: none;
+}
+
+.btn-secondary:active {
+	box-shadow: none;
+	border: none;
+}
+
+.current-temp {
+	padding: 0px 12px;
+}
+
+.current-temp .left {
+	text-align: left;
+	line-height: 21%;
+	margin: 21px auto 0px;
+	align-self: end;
+}
+
+.current-temp .left img {
+	display: block;
+	margin: 60px auto 24px;
+	max-width: 75%;
+}
+
+.current-temp .left p {
+	text-align: center;
+	margin: 30px 0px;
+}
+
+.current-temp .right {
+	text-align: right;
+	line-height: 21%;
+	margin: 75px 0px 0px 0px;
+	padding: 0px;
+	align-self: end;
+}
+
+.current-temp .right h3 {
+	font-size: 36px;
+	font-weight: 400;
+	text-transform: capitalize;
+	text-align: right;
+	align-self: right;
+}
+
+#update-date {
+	font-size: 15px;
+	opacity: 50%;
+}
+
+.current-temp .right h1 {
+	font-size: 75px;
+	line-height: 75%;
+	padding: 0px 0px 6px;
+}
+
+.current-temp .right p {
+	line-height: 6px;
+}
+
+.sunrise-sunset {
+	margin: 45px 0px 0px;
+}
+
+.wrapper-conditions {
+	margin: 45px 0px 0px 21px;
+	font-size: 13px;
+	line-height: 3%;
+}
+
+.wrapper-conditions .col {
+	padding: 12px 0px;
+}
+
+.wrapper-air-quality {
+	margin: 60px 0px 0px;
+}
+
+.wrapper-air-quality .lighter {
+	font-weight: 300;
+}
+
+.wrapper-air-quality .card {
+	background: rgba(57, 162, 219, 0.3);
+	border: none;
+	padding: 0px 9px;
+}
+
+.wrapper-air-quality .progress-bar {
+	background-color: rgba(5, 55, 66, 1);
+}
+
+.wrapper-air-quality .number {
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	align-self: center;
+}
+
+.wrapper-forecasts {
+	background: rgba(57, 162, 219, 0.3);
+	margin: 21px auto;
+	padding: 12px 12px 9px;
+	border-radius: 3px;
+}
+
+.card-temps-1 .left {
+	background-color: transparent;
+	margin: 0px 0px 21px;
+	border: none;
+	text-align: center;
+}
+
+.card-temps-1 .left img {
+	display: block;
+	margin: 0 auto;
+	padding: 12px 0px;
+	width: 30%;
+}
+
+.moon-info {
+	margin: 12px 0px 0px;
+}
+
+.forecast-moon {
+	margin: 12px auto 0px;
+	font-size: 12px;
+}
+
+.card-temps-1 .right {
+	background-color: rgba(57, 162, 219, 0.3);
+	border: none;
+	margin: 0px 0px 0px -12px;
+}
+
+.card-temps-1 .right .forecast-temps {
+	padding: 3px 0px;
+	margin: 0 auto;
+}
+
+.card-temps-1 .right img {
+	max-width: 30%;
+	margin: 0 auto;
+}
+
+.card-temps-1 .right .col-sm-4 {
+	margin: 0 auto;
+	padding: 0px;
+	max-width: 30%;
+	text-align: center;
+}
+
+.card-temps-2 {
+	margin: 12px 0px 0px;
+}
+
+.card-temps-2 .card-body {
+	background-color: rgba(57, 162, 219, 0.3);
+	margin: 1% 0%;
+	padding: 12px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.card-temps-2 img {
+	margin: 15px auto 0px;
+	max-width: 30%;
+}
+
+.card-temps-2 .hi-lo-temps {
+	margin: 12px 0px 0px;
+}
+
+.card-temps-2 .hi-temps {
+	font-weight: bold;
+}
+
+footer {
+	margin: 30px 0px;
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+}
